@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vnetName": {
+      "value":"VNET-test2"
+      },
+      "vnetAddressPrefix": {
+      "Value": "192.168.0.0/16"
+      },
+      "subnet1Name":{
+        "value":"Subnet-test1"
+      },
+      "subnet1Prefix":{
+        "Value": "192.168.1.0/24"
+      },
+      "subnet2Name":{
+        "value":"Subnet-test2"
+      },
+      "subnet2Prefix":{
+        "Value": "192.168.2.0/24"
+      }
+    }    
+}
